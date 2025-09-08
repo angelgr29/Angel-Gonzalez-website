@@ -23,11 +23,11 @@ const Achievements = ({ language }) => {
           bgColor: "bg-yellow-50",
           // details: ".",
           images: [
-            "brazil/brazil1.jpg",
+            "brazil/brazil1.JPG",
             "brazil/brazil2.jpeg",
-            "brazil/brazil3.jpg",
-            "brazil/brazil4.jpg",
-            "brazil/brazil5.jpg",
+            "brazil/brazil3.JPG",
+            "brazil/brazil4.JPG",
+            "brazil/brazil5.JPG",
             "brazil/brazil6.jpeg"
           ]
         },
@@ -45,7 +45,7 @@ const Achievements = ({ language }) => {
             "dubai/dubai2.jpeg",
             "dubai/dubai3.jpeg",
             "dubai/dubai4.jpeg",
-            "dubai/dubai5.jpg",
+            "dubai/dubai5.JPG",
             "dubai/dubai6.jpeg",
             "dubai/dubai7.jpeg"
           ]
