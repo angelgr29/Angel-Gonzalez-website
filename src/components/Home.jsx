@@ -17,9 +17,9 @@ const Home = ({ language }) => {
     es: {
       greeting: "¡Hola!",
       name: "Soy Angel G.",
-      title: "Analista de Datos & Emprendedor",
+      title: "Analista de Datos & Economista",
       subtitle: "Apasionado por la IA, política de competencia y experiencias globales",
-      bio: "Soy un joven profesional con formación en Economía, actualmente trabajando como Analista de Datos en una empresa internacional de medios. Mi verdadera pasión radica en aplicar habilidades de datos para generar impacto inclusivo y sostenible.",
+      bio: "Soy un joven profesional con formación en Economía, actualmente trabajando como Analista de Datos en una empresa internacional de medios. En mi rol, utilizo modelado de datos para apoyar la toma de decisiones estratégicas, pero mi verdadera pasión radica en aplicar estas habilidades para generar impacto inclusivo y sostenible.",
       cta: "Descargar CV",
       scroll: "Descubre más"
     }

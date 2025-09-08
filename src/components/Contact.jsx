@@ -52,7 +52,7 @@ const Contact = ({ language }) => {
       info: {
         location: "Ciudad de México, México",
         email: "angel.gonzalez.eco@outlook.com",
-        phone: "+52 55 1234 5678"
+        phone: "+52 55 7533 9887"
       },
       social: {
         title: "Conéctate conmigo",

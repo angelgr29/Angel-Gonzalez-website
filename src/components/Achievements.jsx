@@ -120,7 +120,15 @@ const Achievements = ({ language }) => {
           icon: Award,
           color: "text-blue-500",
           bgColor: "bg-blue-50",
-          details: "Competí como finalista en la competencia internacional de negocios más grande del mundo realizada en Río de Janeiro, presentando soluciones innovadoras para el desarrollo empresarial sostenible."
+          // details: ".",
+          images: [
+            "brazil/brazil1.JPG",
+            "brazil/brazil2.jpeg",
+            "brazil/brazil3.JPG",
+            "brazil/brazil4.JPG",
+            "brazil/brazil5.JPG",
+            "brazil/brazil6.jpeg"
+          ]
         },
         {
           title: "Foro Económico Juvenil Dubai",
@@ -130,7 +138,16 @@ const Achievements = ({ language }) => {
           icon: Globe,
           color: "text-green-500",
           bgColor: "bg-green-50",
-          details: "Representé orgullosamente a México en el Foro Económico Juvenil en Dubai, interactuando con líderes juveniles y formuladores de políticas para explorar desafíos económicos y de políticas globales."
+          details: ".",
+          images: [
+            "dubai/dubai1.jpeg",
+            "dubai/dubai2.jpeg",
+            "dubai/dubai3.jpeg",
+            "dubai/dubai4.jpeg",
+            "dubai/dubai5.JPG",
+            "dubai/dubai6.jpeg",
+            "dubai/dubai7.jpeg"
+          ]
         },
         {
           title: "Excelencia Académica",
@@ -150,7 +167,13 @@ const Achievements = ({ language }) => {
           icon: Target,
           color: "text-red-500",
           bgColor: "bg-red-50",
-          details: "Reconocido por fundar y gestionar la iniciativa de cine rural, llevando arte y cultura a comunidades desatendidas y promoviendo la innovación inclusiva alineada con los Objetivos de Desarrollo Sostenible de la ONU."
+          details: ".",
+          images: [
+            "cinema/cinema1.jpeg",
+            "cinema/cinema2.jpeg",
+            "cinema/cinema3.jpeg",
+            "cinema/cinema4.jpeg"
+          ]
         },
         {
           title: "Intercambio Internacional",

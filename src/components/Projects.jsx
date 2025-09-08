@@ -57,18 +57,18 @@ const Projects = ({ language }) => {
         ]
     },
     es: {
-      title: "Proyectos",
+      title: "Proyectos & Investigación",
       subtitle: "Soluciones basadas en datos e iniciativas innovadoras",
       projects: [
         {
-          title: "PRODATA - Sistema de Integración de Datos",
-          description: "Un sistema integral de integración de datos que ayuda a las pequeñas y medianas empresas a tomar mejores decisiones a través de información estructurada y accesible.",
+          title: "PROData",
+          description: "PROData es una plataforma moderna de análisis de datos que ayuda a las empresas a transformar archivos dispersos y sin procesar en insights limpios y estructurados. Al combinar automatización, visualización y asistencia impulsada por IA, empodera a las PYMEs y equipos más grandes para tomar decisiones más inteligentes y sostenibles, impulsando la eficiencia, transparencia y crecimiento.",
           framework: ["Trabajo Decente y Crecimiento Económico", "Industria, Innovación e Infraestructura", "Emprendimiento"],
           status: "Start-up en Desarrollo",
           icon: Database,
-          color: "bg-blue-500",
+          color: "bg-purple-500",
           details: ".",
-          url: "https://prodata.example.com",
+          url: "https://prodatadev.vercel.app",
           image: "prodata.png"
         },
         {
@@ -77,9 +77,9 @@ const Projects = ({ language }) => {
           framework: ["R", "Agua Limpia y Saneamiento", "Reducción de Desigualdades"],
           status: "Investigación",
           icon: Droplet,
-          color: "bg-purple-500",
+          color: "bg-blue-500",
           details: ".",
-          url: "https://water-inequality-research.example.com",
+          url: "https://repositorio-digital.cide.edu/handle/11651/5670",
           image: "water_pollution.png"
         },
         {
@@ -88,9 +88,9 @@ const Projects = ({ language }) => {
           framework: ["Python", "Análisis Estadístico", "Analytics de Clientes"],
           status: "Programa",
           icon: PlaneTakeoff,
-          color: "bg-green-500",
+          color: "bg-orange-500",
           details: ".",
-          url: "https://ba-data-science.example.com",
+          url: "https://github.com/angelgr29/British_Airways_Program",
           image: "BAP.png"
         },
         {
@@ -99,9 +99,9 @@ const Projects = ({ language }) => {
           framework: ["Machine Learning", "R", "Trabajo Decente y Crecimiento Económico"],
           status: "Investigación",
           icon: TrendingUp,
-          color: "bg-orange-500",
+          color: "bg-green-500",
           details: ".",
-          url: "https://attrition-prediction.example.com",
+          url: "https://github.com/angelgr29/Attrition-forecast",
           image: "attrition.png"
         }
       ]
