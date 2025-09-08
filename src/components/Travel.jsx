@@ -19,12 +19,23 @@ const Travel = ({ language }) => {
   const currentContent = content[language];
 
   // Generate collage images array (2x8 = 16 images)
-  const collageImages = Array.from({ length: 16 }, (_, index) => ({
-    id: index + 1,
-    src: `/images/countries/country-${index + 1}.${index < 3 ? 'jpg' : 'jpeg'}`,
-    alt: `Travel experience ${index + 1}`,
-    // country: `Country ${index + 1}`
-  }));
+  const collageImages = Array.from({ length: 16 }, (_, index) => {
+    let extension;
+    if (index === 0 || index === 1) {
+      extension = 'JPG'; // country-1.JPG, country-2.JPG
+    } else if (index === 2) {
+      extension = 'jpg'; // country-3.jpg
+    } else {
+      extension = 'jpeg'; // country-4.jpeg and onwards
+    }
+    
+    return {
+      id: index + 1,
+      src: `/images/countries/country-${index + 1}.${extension}`,
+      alt: `Travel experience ${index + 1}`,
+      // country: `Country ${index + 1}`
+    };
+  });
 
 
   return (
