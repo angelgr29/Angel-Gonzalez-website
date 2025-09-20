@@ -262,7 +262,7 @@ const Contact = ({ language }) => {
                   <motion.a
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.95 }}
-                    href="https://linkedin.com/in/angel-gonzalez"
+                    href="https://www.linkedin.com/in/angelgonzalez29"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-gray-100 hover:bg-blue-600 hover:text-white rounded-lg transition-colors duration-300"
@@ -272,7 +272,7 @@ const Contact = ({ language }) => {
                   <motion.a
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.95 }}
-                    href="https://github.com/angel-gonzalez"
+                    href="https://github.com/angelgr29"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-gray-100 hover:bg-gray-800 hover:text-white rounded-lg transition-colors duration-300"
