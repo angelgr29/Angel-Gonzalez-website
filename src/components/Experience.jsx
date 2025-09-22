@@ -16,7 +16,7 @@ const Experience = ({ language }) => {
           company: "Nielsen Media",
           location: "Mexico City, Mexico",
           period: "Dec 2023 – Current",
-          description: "Using data modeling to support strategic decision-making at an international media company. Focus on transforming complex data into actionable insights for business growth.",
+          description: "Leveraging data analysis and automation to measure advertising effectiveness across multiple countries and brands, while consolidating data from diverse sources to improve efficiency and data quality.",
           icon: Building2
         },
         {
